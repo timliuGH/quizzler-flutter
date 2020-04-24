@@ -3,8 +3,8 @@ class Question {
   bool questionAnswer;
 
   // Constructor
-  Question({String q, bool a}) {
-    q = questionText;
-    a = questionAnswer;
+  Question(String q, bool a) {
+    questionText = q;
+    questionAnswer = a;
   }
 }
