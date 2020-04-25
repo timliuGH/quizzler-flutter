@@ -57,7 +57,7 @@ class _QuizPageState extends State<QuizPage> {
 
     quizBrain.nextQuestion();
 
-    setState(() {});
+    setState(() {/* _questionNumber in QuizBrain and scoreKeeper updated. */});
   }
 
   @override
